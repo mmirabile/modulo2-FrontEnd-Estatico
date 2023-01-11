@@ -1,0 +1,91 @@
+#logoAP{
+    width: 450px;
+}
+#div_cabecera{
+    background-color: rgb(128, 11, 190);
+}
+.img_social{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 15px;
+}
+.img_banner{
+    width: 100%;
+    height: 350px;
+}
+.row{
+    padding: 10px;
+    background-color: #CDF8FC;
+    
+}
+#div_foto,#div_datos,#div_info{
+    background-color: #CDF8FC;
+    text-align: center;
+}
+#nombre{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15%;
+}
+#fnacimiento,#estadocivil,#domicilio{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: -5%;
+    margin-left: 18%;
+    text-align: left;
+}
+#titulo_profesional{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5%;
+}
+/*ESTILO FOTO PERFIL*/
+@media (min-width: 576px){
+    #foto_perfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 2%;
+        top: 330px;
+    }
+}
+@media (max-width: 575px){
+    #foto_perfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 30%;
+        top: 460px;
+    }
+}
+h4,h6{
+    display: inline;
+}
+li.lista{
+    margin-top: 1.2%;
+
+}
+li.sub_lista{
+
+        list-style-type: square;
+        list-style-image: url(../imagenes/vineta_2.png);
+        list-style-position: inside;
+
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 0.2%;
+
+}
+p.p_educacion{
+    font-family: "New Century Schoolbook", Times, cursive ;
+    font-weight: normal;
+    font-size: 16px;
+    display: inline;
+}
